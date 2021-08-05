@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    padding: 2rem 7%;
+    height: 100vh;
+
+}
+
+section {
+    padding-top: 4rem;
+}
+
+.container {
+    
+}
+
+.container .header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container .hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    flex-wrap: wrap;
+   
+    padding: 8rem 4rem;
+    
+    align-self: center;
+}
+
+.container .hero .image {
+    flex: 1 1 30rem;
+  
+}
+
+.container .hero .image img {
+    width: 100%;
+}
+
+.container .hero .hero-text {
+    flex: 1 1 35rem;
+    
+    
+    align-self: center;
+   
+}
+
+.container .hero .hero-text h1 {
+    font-size: 4rem;
+    
+    color: #333333;
+}
+
+.container .hero .hero-text p {
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+    width: 60%;
+    line-height: 1.6;
+}
+
+.container .hero .hero-text a {
+    padding: 15px 25px;
+    background: #333333;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+}
+
+.footer {
+    
+    text-align: center;
+}
+
+.footer p {
+     color: rgb(107, 107, 107);
+
+}
+
+.footer p a {
+    color: rgb(107, 107, 107);
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+    html {
+        font-size: 70%;
+    }
+
+    .container .hero {
+        gap: 3rem;
+        padding: 3rem 1rem;
+    }
+
+    .container .hero .hero-text p {
+        width: 100%;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+    }
+
+    .container .hero .hero-text a {
+        padding: 20px 30px;
+        
+    }
+
+}
