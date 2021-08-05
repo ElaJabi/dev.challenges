@@ -112,6 +112,11 @@ section {
         font-size: 70%;
     }
 
+    .container .header {
+        padding: 1rem 1rem;
+
+    }
+
     .container .hero {
         gap: 3rem;
         padding: 3rem 1rem;
